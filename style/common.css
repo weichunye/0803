@@ -1,0 +1,411 @@
+@charset "utf-8";
+/*@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /!* IE9*!/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /!* IE6-IE8 *!/
+    url('iconfont.woff') format('woff'), /!* chrome、firefox *!/
+    url('iconfont.ttf') format('truetype'), /!* chrome、firefox、opera、Safari, Android, iOS 4.2+*!/
+    url('iconfont.svg#iconfont') format('svg'); /!* iOS 4.1- *!/
+}*/
+
+.iconfont {
+    font-family: "iconfont";
+    font-size: 16px;
+    font-style: normal;
+}
+
+.iconfont {
+    -webkit-font-smoothing: antialiased;
+}
+
+a, body {
+
+    color: #333;
+
+}
+
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, td, textarea, th, ul {
+    margin: 0;
+    padding: 0
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 arial, tahoma, \5b8b\4f53
+}
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%
+}
+
+fieldset, img {
+    border: 0
+}
+
+li, ol, ul {
+    list-style: none
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    outline: 0
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #F60;
+    text-decoration: underline
+}
+
+.clear {
+    overflow: hidden;
+    font-size: 0
+}
+
+.hide {
+    display: none
+}
+
+.lazy-loading {
+    background: url("images/defauit.gif") no-repeat center center;
+}
+
+.l {
+    float: left
+}
+
+.r {
+    float: right
+}
+
+.mt10 {
+    margin-top: 10px !important
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px !important
+}
+
+.ml10 {
+    margin-left: 10px !important
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.width_1190 {
+    margin: 0 auto;
+    width: 1190px;
+    display: block;
+
+}
+
+.ovhidden {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.back_blue {
+    background-color: #e4eaed;
+}
+
+.strong {
+    display: inline-block;
+    margin-left: 2px;
+    font: bold 18px/24px "iconfont";
+}
+
+.display-block {
+    display: block;
+}
+
+.ng-ser-box {
+    width: 100%;
+    background: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+    min-width: 990px;
+    display: block;
+    overflow: hidden;
+}
+
+.ng-ser-box-con {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ng-promise {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1050px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.ng-promise dl {
+    float: left;
+    width: 210px;
+    overflow: hidden;
+}
+
+.ng-promise dt {
+    float: left;
+    width: 48px;
+    height: 48px;
+    background: url(../images/npbg.png) no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.ng-promise dt.zheng {
+    background-position: 0 0;
+}
+
+.ng-promise dt.jisu {
+    background-position: -48px 0;
+}
+
+.ng-promise dt.wuyou {
+    background-position: -96px 0;
+}
+
+.ng-promise dt.te {
+    background-position: -144px 0;
+}
+
+.ng-promise dt.help {
+    background-position: -191px 0;
+}
+
+.ng-promise dd {
+    float: left;
+    height: 48px;
+    width: 140px;
+}
+
+.ng-promise dd p {
+    line-height: 24px;
+    width: 100%;
+    color: #545454;
+}
+
+.ng-promise dd p strong {
+    font-weight: 700;
+    color: #222;
+    font-size: 14px;
+}
+
+.clear {
+    overflow: hidden;
+    font-size: 0;
+}
+
+.ng-box {
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.ng-help-box {
+    float: left;
+    width: 850px;
+    height: 180px;
+}
+
+.ng-help-box dl {
+    float: left;
+    height: 160px;
+    width: 170px;
+}
+
+.ng-help-box dt {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.ng-help-box dd a {
+    line-height: 28px;
+}
+
+.ng-app-down {
+    float: left;
+    height: 180px;
+    width: 90px;
+}
+
+.ng-app-down p, .ng-footer .ng-hot-line p {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.ng-new-pro {
+    position: relative;
+    width: 100%;
+    min-width: 990px;
+    height: 125px;
+    background: #33302b;
+}
+
+.ng-new-pro-con {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ng-s-footer {
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+}
+
+.foot {
+    margin-top: 15px;
+    width: 100%;
+    background: #000;
+    padding: 16px 0;
+}
+
+.ng-s-f-con {
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+}
+
+.ng-s-f-con a {
+    color: #eeeeee;
+    line-height: 28px;
+}
+
+.ng-copyright {
+    color: #999;
+    margin-top: 10px;
+
+}
+
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.wrapper .simple-header {
+    display: block;
+    overflow: hidden;
+    padding: 15px 0 6px;
+
+}
+
+.simple-header a {
+    float: left;
+}
+
+.wrapper .reglogo {
+    display: inline-block;
+    height: 17px;
+    width: 89px;
+    margin: 18px 0 0 10px;
+    background: url(../images/regLogo.png);
+}
+
+.reg-bor-top {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 5px;
+}
+
+.reg-bor-top .h2 {
+    margin: 2px auto;
+    padding: 6px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+    line-height: 30px;
+    border-bottom: solid 2px #fc8600;
+}
+.ul li{ height: 80px;}
+.ul li input {
+    margin-top: 30px;
+    height: 38px;
+    width: 360px;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    background: #fff;
+    color: #666666;
+    text-indent: 18px;
+    font-family: "Microsoft YaHei";
+}
+.ul li input span{ display: none; width: 100%; line-height: 24px; height: 24px; font-size: 12px;}
+.ul li input.ok{
+
+    border: solid 1px lightsteelblue;
+
+}
+.ul li input .error{
+
+    border: solid 1px red;
+
+}
+.reg-con {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.reg-submite {
+    margin-top: 40px;
+    height: 42px;
+    width: 360px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: #ff9c00;
+}

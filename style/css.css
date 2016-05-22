@@ -1,0 +1,1226 @@
+.top_banner {
+    width: 100%;
+    height: 100px;
+    background-color: #f22a44;
+}
+
+.top_banner .con {
+    margin: 0px auto;
+}
+
+.top_nav_con {
+    overflow: hidden;
+    width: 100%;
+    height: 55px;
+    background-color: #f22a44;
+}
+
+.top_nav {
+    height: 55px;
+    margin: 0 auto;
+}
+
+.top_nav_left {
+    float: left;
+    margin-right: 10px;
+}
+
+.top_nav_list {
+    float: right;
+}
+
+.top_nav_list li {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 55px;
+}
+
+.top_nav_list li a {
+    display: block;
+    width: 42px;
+    margin: 0 10px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 55px;
+}
+
+.top_nav_list li i {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 21px;
+    height: 55px;
+    background: url("../images/cxbg.png") -86px 0 no-repeat;
+}
+
+.sub_nav {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.sub_nav_list {
+}
+
+.sub_nav_list li {
+    position: relative;
+    width: 64px;
+    float: left;
+    text-align: center;
+    margin-right: 6px;
+
+}
+
+.sub_nav_list li .a {
+    display: inline-block;
+    height: 36px; line-height: 36px;
+    width: 68px;
+    color: #666
+}
+.sub_nav_list_a{
+    position: relative;
+    display:inline-block;
+    height: 34px; line-height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+
+    width: 66px;
+    z-index: 3;
+}
+.ng-bar-node-box {
+    position: relative;
+    margin-left: -1px;
+}
+.ng-sn-site-nav {
+    width: 988px;
+    padding: 20px 0;
+    left: -112px;
+    z-index: 10;
+
+}
+.over-con{
+    position: absolute;
+    padding: 8px 0px;
+    top: 35px;
+    line-height: 26px;
+    border: 1px solid #ddd;
+    background: #fff;
+    left: 0;
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+    color: #666;
+}
+.over-v span{
+    display: block;
+    width: 100%;
+}
+.width-68{ width: 66px;}
+.width-200{ width: 200px;}
+dl.sn-site-list {
+    float: left;
+    width: 176px;
+    border-right: 1px solid #eee;
+    padding-left: 20px;
+}
+dl.sn-site-list dt {
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+}
+dl.sn-site-list dd {
+    width: 100%;
+    overflow: hidden;
+}
+dl.sn-site-list dd p {
+    float: left;
+    height: 25px;
+    width: 78px;
+    line-height: 25px;
+}
+.ng-d-box {
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #fff;
+    left: 0;
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+
+}
+#header {
+    height: 110px
+}
+
+.header_serch {
+    width: 560px;
+    margin-top: 30px;
+}
+
+.serch_box {
+    width: 440px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #fa0;
+    padding-left: 30px;
+    border-right: 0;
+}
+
+.serch_box input {
+    width: 440px;
+    border: 0;
+    line-height: 36px;
+    -webkit-border-radius: 0;
+    color: #999999;
+}
+
+.submit_seach {
+    width: 80px;
+    height: 40px;
+    padding: 0;
+    letter-spacing: 2px;
+    text-indent: 2px;
+    color: #FFF;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+    background-color: #fa0;
+    -webkit-appearance: none;
+}
+
+.keyword {
+    margin-top: 5px;
+}
+
+.keyword a {
+    float: left;
+    margin-right: 10px;
+    color: #999;;
+    line-height: 26px;
+}
+
+.keyword a span {
+    color: red;
+}
+
+.nav_bar {
+    height: 30px;
+    line-height: 30px;
+}
+
+.sort {
+    width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-indent: 9px;
+    background-color: #333;
+}
+
+#banner {
+    height: 350px;
+    width: 100%;
+    border-top: 2px solid #000;
+    background-color: #fff;
+    z-index: -1;
+}
+
+#banner .box {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 350px;
+
+}
+.bannerInner {
+    width: 100%;
+    height: 100%;
+    background: url("../images/default.gif") no-repeat center center #e1e1e1;
+}
+.bannerInner div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.bannerInner img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.prev,.next{
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    width: 28px;
+    height: 56px;
+    background: url(../images/mobile-spirte.png) no-repeat;
+    z-index: 1000;
+}
+.prev {
+    left: 50%;
+    margin-left: -385px;
+    background-position: -246px 0;
+    cursor: pointer;
+}
+.next {
+    right: 50%;
+    margin-right: -375px;
+    background-position: -276px 0;
+    cursor: pointer;
+}
+.bannerTip {
+    position: absolute;
+    right: 20px;
+    bottom: 12px;
+    z-index: 10;
+    height: 18px;
+    overflow: hidden;
+}
+
+.bannerTip li {
+    float: left;
+    margin-left: 10px;
+    width: 20px;
+    height: 6px;
+    cursor: pointer;
+    background-color: #e5eaee;
+}
+
+.bannerTip li.bg {
+    background: red;
+}
+.sort_list_box {
+    float: left;
+    width: 180px;
+    height: 350px;
+    background-color: #333;
+    z-index: 1;
+
+}
+
+#banner_right {
+    float: right;
+    width: 210px;
+    height: 350px;
+}
+
+.sort_list_box_line {
+    position: relative;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid dimgray;
+    color: #fff;
+    cursor: pointer;
+}
+.sort_listbg{ background: #fff; color: #000000}
+
+.sort_list_box_line em {
+    margin-left: 15px;
+}
+.sort_list_box_line span {
+    font-weight: bold;
+    margin-right: 8px;
+}
+.second_haeder{ position: relative; display: block; overflow: hidden; width: 100%}
+.shop_list {
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    padding: 20px;
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+    z-index: 13;
+    display: none;
+}
+
+
+.shop_list dl {
+    padding: 8px;
+}
+
+.shop_list dl dt {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    color: #333;
+    font-weight: bold;
+}
+
+.shop_list dl dd {
+    float: left;
+    width: 480px;
+    border-bottom: 1px solid aliceblue;
+}
+
+.shop_list dl dd a {
+    float: left;
+    margin: 7px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #333;
+}
+
+.shop_list dl dd a span {
+    color: orange;
+}
+
+.tit_1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0;
+    color: #788595;
+    font-size: 18px;
+    text-indent: 8px;
+    font-family: Microsoft YaHei;
+}
+
+.list_second {
+    overflow: hidden;
+    padding: 17px 0px 17px 200px;
+}
+
+.list_second li {
+    display: block;
+    margin-top: 10px;
+    float: left;
+    padding-left: 10px;
+    width:140px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.list_second li .a_1 {
+    float: left;
+    height: 36px;
+    margin-left: 15px;
+    color: #0088d7;
+
+}
+
+.list_second li .a_1 i {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: -34px -152px;
+}
+
+.list_second li .a_1 b {
+    float: left;
+    height: 36px;
+    padding: 0 5px;
+    font: bold 14px/36px 'microsoft yahei';
+    background-color: #FFF;
+}
+
+.list_second li .a_1 em {
+    float: left;
+    display: block;
+    width: 17px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: 0 -215px
+}
+
+.list_second li .a_2 {
+    float: left;
+    height: 36px;
+    margin-left: 15px;
+    color: #0088d7;
+
+}
+
+.list_second li .a_2 i {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: -34px -38px;
+}
+
+.list_second li .a_2 b {
+    float: left;
+    height: 36px;
+    padding: 0 5px;
+    font: bold 14px/36px 'microsoft yahei';
+    background-color: #FFF;
+
+}
+
+.list_second li .a_2 em {
+    float: left;
+    display: block;
+    width: 17px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: 0 -215px;
+}
+
+.list_second li .a_3 {
+    float: left;
+    height: 36px;
+    margin-left: 15px;
+    color: #fc8600;
+
+}
+
+.list_second li .a_3 i {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: -34px -76px;
+}
+
+.list_second li .a_3 b {
+    float: left;
+    height: 36px;
+    padding: 0 5px;
+    font: bold 14px/36px 'microsoft yahei';
+    background-color: #FFF;
+    color: #fc8600;
+}
+
+.list_second li .a_3 em {
+    float: left;
+    display: block;
+    width: 17px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: 0 -215px;
+}
+
+.list_second li .a_4 {
+    float: left;
+    height: 36px;
+    margin-left: 15px;
+    color: #82ab29;
+
+}
+
+.list_second li .a_4 i {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: -34px -114px;
+}
+
+.list_second li .a_4 b {
+    float: left;
+    height: 36px;
+    padding: 0 5px;
+    font: bold 14px/36px 'microsoft yahei';
+    background-color: #FFF;
+    color: #82ab29;
+}
+
+.list_second li .a_4 em {
+    float: left;
+    display: block;
+    width: 17px;
+    height: 36px;
+    background-image: url("../images/mobile-spirte.png");
+    background-position: 0 -215px;
+}
+
+.list_show {
+    display: block;
+    overflow: hidden;
+    margin: 16px 10px;
+}
+
+.list_show li {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 280px;
+    padding-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: #FFF;
+    text-align: center;
+    box-shadow: 0 1px 3px #ddd;
+    cursor: pointer;
+}
+
+.list_show li div {
+    width: 160px;
+    height: 175px;
+    padding: 20px 35px;
+    border-bottom: 1px solid #e4eaed;
+}
+
+.list_show li div img {
+    width: 160px;
+    height: 160px;
+}
+
+.cls
+element.style {
+}
+
+.today_list .list ul li p {
+    width: 230px;
+}
+
+
+.pro-price {
+    height: 24px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 18px; font-weight: bold;;
+}
+.floor-head{
+    position: relative;
+    height: 31px;
+    margin-top: 41px;}
+
+.floor-head h2{
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url("../images/mobile-spirte.png");
+}
+.floor1-h2{
+    background-position: -164px 0;
+}
+.floor2-h2{
+    background-position: -164px -22px;
+}
+.floor4-h2 {
+    background-position: -164px -66px;
+}
+.floor-head span{
+    float: left;
+    font: bold 18px/22px 'microsoft yahei';
+    color: #788595;
+}
+.floor-head2{
+    position: relative;
+    height: 31px;
+    margin-top: 41px;
+    border-bottom: 2px solid #788595;
+    z-index: 1;
+}
+.floor-head span em{
+    padding: 0 7px;
+    font-weight: normal;
+}
+.brand-item {
+    float: left;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.brand-prods-list .brand-name {
+    height: 30px;
+    padding: 14px 20px 15px 21px;
+    background-color: #f0f2f5;
+    overflow: hidden;
+    cursor: pointer;
+}
+.brand-name img {
+    float: left;
+    height: 30px;
+    margin-right: 11px;
+}
+.brand-name .bn {
+    float: left;
+    font: bold 14px/30px "Microsoft YaHei";
+    color: #666;
+}
+.brand-name .arr {
+    float: right;
+    width: 5px;
+    height: 10px;
+    margin: 10px 1px 0 0;
+    background: url(../images/mobile-spirte.png) no-repeat -138px -221px;
+    font-size: 0;
+    overflow: hidden;
+}
+.others-list {
+    height: 359px;
+    padding: 30px 20px 0;
+    overflow: hidden;
+    border: 1px solid #e4eaed;
+    border-top: 0 none;
+}
+.others-list li {
+    width: 168px;
+    height: 160px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.others-list .pro-pic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+}
+.others-list .pro-name {
+    margin-top: 14px;
+}
+.pro-name {
+    height: 22px;
+    margin-top: 4px;
+    font: 12px/22px 'microsoft yahei';
+    overflow: hidden;
+    text-align: center;
+}
+.pro-name a {
+    color: #666;
+}
+.brand-item1{ width: 310px;}
+.brand-item2{ width: 210px;}
+.brand-item2 .brand-name {
+    border-top: 1px solid #ff9969;
+}
+.brand-name {
+    height: 30px;
+    padding: 14px 20px 15px 21px;
+    background-color: #f0f2f5;
+    overflow: hidden;
+    cursor: pointer;
+}
+.brand-name img {
+    float: left;
+    height: 30px;
+    margin-right: 11px;
+}
+.brand-name a.see {
+    float: right;
+    width: 85px;
+    height: 28px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #fff;
+    background-color: #0082cd;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 2px;
+}
+.prods-list {
+    height: 359px;
+    padding: 30px 25px 0 10px;
+    border: 1px solid #e4eaed;
+    border-top: 0 none;
+    overflow: hidden;
+}
+.prods-list dl {
+    width: 273px;
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.prods-list dl dt {
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.prods-list dl dd {
+    width: 162px;
+    float: left;
+    margin-left: 10px;
+}
+.prods-list dl img{ width: 100px; height: 100px;}
+.brand-item1 .pro-price {
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+}
+.pro-price b {
+    display: inline-block;
+    margin-top: 2px;
+    font: normal 14px/18px "iconfont";
+    vertical-align: top;
+}
+.others-list .pro-pic img{ width: 100px;
+    height: 100px;}
+#brand-logo{     position: relative;
+    height: 70px;
+    overflow: hidden;
+    background-color: #f5f8fa;}
+#brand-logo ul{}
+#brand-logo .btn {
+    position: absolute;
+    top: 23px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/mobile-spirte.png) no-repeat;
+}
+#brand-logo .btn-prev {
+    left: 20px;
+    background-position: -110px 0;
+}
+#brand-logo .btn-next {
+    right: 20px;
+    background-position: -110px -26px;
+}
+#logo-box{
+    position: relative;
+    width: 1064px;
+    height: 70px;
+    margin-left: 63px;
+    overflow: hidden;
+}
+#logo-box li{
+    float: left;
+    width: 106px;
+    height: 49px;
+    padding: 21px 0 0 12px;
+    background-color: #f5f8fa;
+}
+#logo-box li img{
+    display: block;
+    width: 90px;
+    height: 30px;
+}
+.floor-left {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 578px;
+    margin-bottom: 15px;
+    border: 1px solid #e4eaed;
+}
+.floor-left .pic-banner{
+    position: relative;
+    width: 228px;
+    height: 378px;
+    border: 1px solid #e4eaed;
+    border-top: 0 none;
+    overflow: hidden;
+}
+.banner-box{ overflow: hidden;}
+.banner-box .banner-con{
+    width: 228px;
+    height: 378px;
+}
+.banner-box .banner-con div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.banner-box .banner-con img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-nav{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 76px;
+}
+.banner-nav li{
+    float: left;
+    width: 20px;
+    height: 5px;
+    margin-right: 8px;
+    background-color: #e4eaed;
+    cursor: pointer;
+    font-size: 0;
+}
+li.current {
+    background-color: #a9d051;
+}
+.floor-left .flag-list {
+    height: 164px;
+    padding: 17px 16px;
+    border: 1px solid #e4eaed;
+    margin-top: -1px;
+    background-color: #f4f7fa;
+    overflow: hidden;
+}
+.flag-list dl dt {
+    margin-left: 1px;
+    font: bold 14px/38px 'microsoft yahei';
+    color: #333;
+}
+.flag-list dl dd {
+    float: left;
+    text-align: center;
+    font-size: 0;
+}
+.flag-list dl dd a {
+    display: inline-block;
+    max-width: 74px;
+    height: 26px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 7px;
+    _padding: 0 5px;
+    background-color: #fff;
+    border: 1px solid #e4eaed;
+    border-radius: 2px;
+    font: 12px/26px 'microsoft yahei';
+    color: #666;
+    overflow: hidden;
+}
+.tabBox{
+
+}
+.tabBox .div{ display: none;}
+.tabBox .div.bg {
+    display: block;
+}
+.pro-list {
+   /* width: 720px;*/
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 578px;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+.pro-list .listp li {
+    position: relative;
+    float: left;
+    border: 1px solid #e4eaed;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 200px;
+    height: 248px;
+    padding: 20px 19px 20px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+}
+.pro-list .pro-pic {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+}
+.pro-list .pro-pic img{
+
+    display: block;
+    width: 160px;
+    height: 160px;
+
+}
+.sale-flag {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    overflow: hidden;
+}
+.add-compare {
+   /* display: none;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 22px;
+    background-color: #a7b0ba;
+    text-align: center;
+    display: block;
+}
+.add-compare a {
+    float: left;
+    font: 12px/22px 'microsoft yahei';
+    color: #fff;
+}
+.add-compare i {
+    float: left;
+    width: 26px;
+    height: 16px;
+    margin: 3px 7px 3px 75px;
+    background: url(../images/mobile-spirte.png) no-repeat;
+    overflow: hidden;
+}
+.add-compare .off {
+    background-position: -136px -74px;
+}
+
+.ranking-list {
+    float: left;
+    width: 237px;
+    height: 577px;
+    border: 1px solid #e4eaed;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: #f4f7fa;
+    overflow: hidden;
+}
+.ranking-list .hot-head {
+    font: bold 14px/58px 'microsoft yahei';
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #e4eaed;
+    background-color: #f4f7fa;
+}
+.ranking-list li {
+    float: left;
+    width: 219px;
+    height: 70px;
+    margin-left: -1px;
+    padding: 20px 20px 10px 0;
+    border-left: 1px solid #e4eaed;
+    border-right: 1px solid #e4eaed;
+}
+.ranking-list li .rank {
+    float: left;
+    width: 20px;
+    height: 20px;
+    font: bold 12px/20px Arial;
+    color: #fff;
+    text-align: center;
+}
+.ranking-list li .rank01 {
+    background-color: #0088d7;
+}
+.ranking-list li .rank02 {
+    background-color: #a9d051;
+}
+.ranking-list li .rank03 {
+    background-color: lightsalmon;
+}
+.ranking-list li .rank04 {
+    background-color: #bec7d4;
+}
+.item-pro {
+    float: left;
+}
+.item-pro dt {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    background-color: #fff;
+}
+.item-pro img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.item-pro dd {
+    float: left;
+    width: 108px;
+    margin-left: 16px;
+}
+.item-pro .name {
+    height: 20px;
+    font: 12px/20px 'microsoft yahei';
+    color: #666;
+    overflow: hidden;
+}
+.tabBox .tab-floor-head {
+    position: absolute;
+    left: 0px;
+    top: -36px;
+    z-index: 12;
+}
+.tabBox .tab-floor-head ul{
+     width: 100%;
+    overflow: hidden;
+}
+.tabBox .tab-floor-head li {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 36px;
+    margin-right: 3px;
+    text-align: center;
+    background-color: #8d9eb6;
+    cursor: pointer;
+    font: bold 14px/36px 'microsoft yahei';
+    color: #fff;
+}
+.tabBox .tab-floor-head li.bg{
+    background-color: #0088d7;
+    height: 36px;
+    line-height: 36px;
+}
+
+
+.buygifts {
+    width: 230px;
+    height: 444px;
+}
+.tit {
+    height: 24px;
+    line-height: 24px;
+    margin: 8px 0;
+    color: #788595;
+    font-size: 18px;
+    text-indent: 8px;
+    font-family: Microsoft YaHei;
+}
+.sunsingle h3 {
+    margin: 11px 0;
+}
+.tit i {
+    width: 3px;
+    height: 18px;
+    margin-top: 4px;
+    _margin-top: 2px;
+    font-size: 0;
+    overflow: hidden;
+    background-color: #788595;
+}
+.buygifts .picadvert {
+    position: relative;
+    width: 230px;
+    height: 403px;
+}
+.buygifts .picadvert ul {
+    position: relative;
+}
+.buygifts .picadvert ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 403px;
+}
+.buygifts .time {
+    position: relative;
+    height: 75px;
+    padding: 15px 20px 0;
+    background-color: #0088d7;
+    color: #FFF;
+}
+.buygifts .time div {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.sunsingle .buygifts .time em {
+    display: inline-block;
+    width: 22px;
+    margin-right: 5px;
+    height: 18px;
+    padding-left: 1px;
+    margin-left: 3px;
+    background: url(../images/mobile-spirte.png) no-repeat -34px -228px;
+    letter-spacing: 4px;
+    font-style: normal;
+}
+
+.sunsingle .buygifts .time .gifts-cnt {
+    width: 190px;
+    height: 18px;
+    overflow: hidden;
+}
+.buygifts .time .gifts-cnt span {
+    float: left;
+}
+.buygifts .time .gifts-cnt .cnt-list {
+    float: left;
+    font: bold 12px/18px 'microsoft yahei';
+}
+
+.sunsingle .buygifts .time .arr {
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 7px;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -7px;
+    background: url(../images/mobile-spirte.png) no-repeat -91px -99px;
+    z-index: 1999;
+    font-size: 0;
+}
+
+.sunsingle .buygifts .picadvert .advert-pic {
+    display: block;
+    width: 230px;
+    height: 315px;
+}
+.buygifts .prev, .buygifts .next {
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 189px;
+    background: url(../images/mobile-spirte.png) no-repeat;
+    z-index: 6;
+}
+.buygifts .next {
+    display: none;
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 189px;
+    background: url(../images/mobile-spirte.png) no-repeat;
+    z-index: 6;
+}
+.buygifts .next {
+    right: 10px;
+    background-position: -328px 0;
+    cursor: pointer;
+}
+.buygifts .prev {
+    left: 10px;
+    background-position: -306px 0;
+    cursor: pointer;
+}
+.subscript {
+    position: absolute;
+    width: 230px;
+    bottom: 20px;
+    height: 5px;
+    text-align: center;
+    z-index: 1000;
+}
+.subscript a {
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    margin: 0 4px;
+    background-color: #e5eaee;
+    cursor: pointer;
+    overflow: hidden;
+}
+.subscript .ban_action {
+    background-color: #abd157;
+}
+.addanimate{
+    top: -10px;
+}

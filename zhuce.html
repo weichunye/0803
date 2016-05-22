@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="stylesheet" href="style/common.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="simple-header">
+        <div id="snlogo" class="clearfix">
+            <a href="" title="苏宁易购"><img alt="苏宁易购" src="images/snlogo.png"></a>
+            <span class="channel l reglogo"></span>
+
+        </div>
+    </div>
+    <div class="reg-bor-top">
+    <h2 class="h2">
+      用户注册
+    </h2>
+    </div>
+    <div class="reg-con">
+        <ul class="ul">
+            <li>
+                <input class="reg-txtbox" type="text"  id="userName" placeholder="您的账户名和登录名"><br>
+                <span id="userSpan"></span>
+        </li>
+            <li>
+                <input class="reg-txtbox" type="text" id="email" placeholder="请输入邮箱地址"><br>
+                <span id="emailSpan"></span>
+            </li>
+            <li>
+                <input class="reg-txtbox" type="text" id="userInfo" placeholder="请输入身份证号码"><br>
+                <span id="userInfoSpan"></span>
+            </li>
+
+
+<li>
+    <input class="reg-txtbox" type="text" id="phone" placeholder="建议使用常用手机"><br>
+    <span id="phoneSpan"></span>
+</li>
+        </ul>
+
+        <input class="reg-submite" type="submit" value="提&nbsp;&nbsp;&nbsp;交">
+    </div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+    var userName=document.getElementById("userName");
+    var userSpan=document.getElementById("userSpan");
+    var aaa=document.getElementsByClassName("aaa");
+    userName.onfocus=function(){
+        this.className="ok";
+        userSpan.style.display="block";
+        userSpan.style.color="#616161";
+        userSpan.innerHTML="支持字母、数字、“-”“_”的组合，4-20个字符"
+    };
+    userName.onblur=function(){
+        var text=this.value;
+        text=text.replace(/(^ +| +$)/,"");
+        if(text.length==0){
+            this.className="";
+            userSpan.style.display="none";
+            return
+        }
+        var reg=/^(\w|-){4,20}$/;
+        if(!reg.test(text)){
+            this.className="error";
+            userSpan.style.display="block";
+            userSpan.style.color="red";
+            userSpan.innerHTML="用户名格式不正确";
+            return;
+        }
+        this.className="";
+        userSpan.style.display="none";
+
+    };
+    var email=document.getElementById("email");
+    var emailSpan=document.getElementById("emailSpan");
+    email.onfocus=function(){
+        this.className="ok";
+        emailSpan.style.display="block";
+        emailSpan.style.color="#616161";
+        emailSpan.innerHTML="请输入您的邮箱地址"
+    };
+    email.onblur=function(){
+        var text=this.value;
+        text=text.replace(/(^ +| +$)/,"");
+        if(text.length==0){
+            this.className="";
+            emailSpan.style.display="none";
+            return;
+        }
+        var reg=/^\w+((\.\w+)|(-\w+))*@[a-zA-Z0-9]+((\.|-)[a-zA-Z0-9]+)*\.[a-zA-Z0-9]+$/;
+        if(!reg.test(text)){
+            this.className="error";
+            emailSpan.style.display="block";
+            emailSpan.style.color="red";
+            emailSpan.innerHTML="邮箱格式不正确";
+            return;
+        }
+        this.className="";
+        emailSpan.style.display="none";
+    };
+    var userInfo=document.getElementById("userInfo");
+    var userInfoSpan=document.getElementById("userInfoSpan");
+    userInfo.onfocus=function(){
+        this.className="ok";
+        userInfoSpan.style.display="block";
+        userInfoSpan.style.color="#616161";
+        userInfoSpan.innerHTML="请输入您的身份证号"
+    };
+    userInfo.onblur=function(){
+        var text=this.value;
+        text=text.replace(/(^ +| +$)/,"");
+        if(text.length==0){
+            this.className="";
+            userInfoSpan.style.display="none";
+            return;
+        }
+        var reg = /^(\d{6})(\d{4})(\d{2})(\d{2})(\d{2})(\d)(\d|X)$/;
+        if(!reg.test(text)){
+            this.className="error";
+            userInfoSpan.style.display="block";
+            userInfoSpan.style.color="red";
+            userInfoSpan.innerHTML="身份证格式不正确";
+            return;
+        }
+        this.className="";
+        userInfoSpan.style.display="none";
+        text.replace(reg,function(){
+            aaa[0].innerHTML=2016-arguments[2];
+            aaa[1].innerHTML=arguments[6]/2==0?"女":"男";
+        })
+    };
+    var phone=document.getElementById("phone");
+    var phoneSpan=document.getElementById("phoneSpan");
+    phone.onfocus=function(){
+        this.className="ok";
+        phoneSpan.style.display="block";
+        phoneSpan.style.color="#616161";
+        phoneSpan.innerHTML="完成验证后，可以使用该手机登录和找回密码"
+    };
+    phone.onblur=function(){
+        var text=this.value;
+        text=text.replace(/(^ +| +$)/,"");
+        if(text.length==0){
+            this.className="";
+            phoneSpan.style.display="none";
+            return;
+        };
+        var reg=/^1[34578]\d{9}$/;
+        if(!reg.test(text)){
+            this.className="error";
+            phoneSpan.style.display="block";
+            phoneSpan.style.color="red";
+            phoneSpan.innerHTML="格式不正确";
+            return;
+        }
+        this.className="";
+        phoneSpan.style.display="none";
+    };
+
+
+
+</script>
+</html>
